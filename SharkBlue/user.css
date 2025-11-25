@@ -16,19 +16,6 @@
   border-radius: 8px !important;
 }
 
-/* transparent window controls */
-#main::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 999;
-  -webkit-backdrop-filter: brightness(2.12);
-  backdrop-filter: brightness(2.12);
-  width: 135px;
-  height: 64px;
-}
-
 /* Page titles */
 h1 {
   font-weight: 700 !important;
